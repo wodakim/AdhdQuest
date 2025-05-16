@@ -58,7 +58,7 @@ function App() {
             transition={{ delay: 0.5 }}
             className="text-2xl md:text-4xl font-bold text-[#433e56]"
           >
-            ADHD Quests
+            ADHD Quests & Attention deficit disorder
           </motion.h1>
           <motion.p
             initial={{ opacity: 0 }}
@@ -82,7 +82,7 @@ function App() {
             <Dashboard />
           </main>
           <footer className="py-3 px-4 text-center text-sm text-gray-500">
-            <p>ADHD Quests &copy; {new Date().getFullYear()} - Turn tasks into adventures</p>
+            <p>ADHD Quests and attention deficit disorder &copy; {new Date().getFullYear()} - Turn tasks into adventures</p>
           </footer>
         </div>
       </TaskProvider>
